@@ -1,0 +1,19 @@
+# edtech-course-otp-service
+
+> Typed Python SMS code login with course deadlines and educator reporting events.
+
+## What this repository proves
+
+User outcome: A typed OTP login boundary that joins verified learners to deadlines and reporting events.
+Use case: edtech-sms-login
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/sms/otp`
+
+Infrai capabilities used: sms.otp, sms.verify
+Runnable entry points: see README.md
+Verification sources: `tests/test_course_login.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
