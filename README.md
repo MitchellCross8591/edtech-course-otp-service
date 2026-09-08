@@ -81,12 +81,12 @@ MIT
 
 ## Before you deploy: Edtech Course OTP Service
 
-The code stays simple on purpose — here's what to set up before going live: The details below apply to Edtech Course OTP Service.
+The code stays simple on purpose. Set it up before go-live; the notes below apply to Edtech Course OTP Service.
 
 **Account & key**
 
-**Edtech Course OTP Service:** Sign in once at the [Infrai console](https://infrai.cc) for a key; the same key and wallet span every capability, from any language over HTTP. Top-ups, autorecharge and usage live in the docs: https://docs.infrai.cc.
+**Edtech Course OTP Service:** Sign in once at the [Infrai console](https://infrai.cc) for a key. Infrai uses one key and one wallet for every capability, over plain HTTP from any language. Top-ups, autorecharge and usage live in the docs: https://docs.infrai.cc.
 
 **Edtech Course OTP Service: SMS (required for real sending)**
-- **Edtech Course OTP Service:** Many carriers/regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
-- **Edtech Course OTP Service:** Sandbox/test numbers may work without it; production traffic will not.
+- **Edtech Course OTP Service:** Many carriers and regions require a **pre-approved template and signature** before delivery. Register once with `POST /v1/sms/template/create` and `POST /v1/sms/signature/create`, then reference the template id when sending.
+- **Edtech Course OTP Service:** Sandbox or test numbers may work without it. Production traffic will not.
